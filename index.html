@@ -60,7 +60,7 @@
     </div>
   <h1 class="dion text-center"><span class="element"></span></h1>
   <div class="text-center">
-    <p><h3 style="font-family:'Baloo Bhaina', cursive;color:white">Hi I am Dion<br> <a href="http://dionpamungkas.blogspot.co.id">My Blog</a> | <a href="#tentang">Tentang Saya</a> | <a href=#karya>Karya Saya</a></h3>
+    <p><h3 style="font-family:'Baloo Bhaina', cursive;color:white">Hi I am Dion<br> <a href="http://dionpamungkas.blogspot.co.id">My Blog</a> | <a href="#tentang" onclick="return smoothScroll('tentang')">Tentang Saya</a> | <a href="#karya" onclick="return smoothScroll('karya')">Karya Saya</a></h3>
       <div style="background-color:rgba(255, 255, 255, 0.9);">
     <a title="FB: Dion Arya Pamungkas" target="_blank" href="http://fb.com/dion.aryapamungkas"><i style="color:#3b5998;" class="fa-5x fa fa-facebook-official"></i></a>&nbsp;&nbsp;
     <a title="@DionArya_P" target="_blank" href="http://twitter.com/DionArya_P"><i style="color:#4099FF" class="fa-5x fa fa-twitter"></i></a>&nbsp;&nbsp;
@@ -76,8 +76,8 @@
   <div class="container">
 
     <div class="row">
-      <div id="tentang" style="margin-top:110px;margin-bottom:50px">
-
+      <div style="margin-top:110px;margin-bottom:50px">
+        <div id="tentang">
         <div class="w3-container">
           <h2 class="text-center" style="font-size:40px;font-family: 'Baloo Bhaina', cursive;color:white">Tentang Saya</h2>
         </div>
@@ -122,12 +122,13 @@
 
     </div>
     </div>
+  </div>
 
 
 
-
+    <div id="karya">
     <div class="row" style="margin-top:110px;">
-      <div class="col-md-12 col-xs-12" id="karya">
+      <div class="col-md-12 col-xs-12">
       <center><h3 style="font-family: 'Baloo Bhaina', cursive;font-size:50px;color:white">Karya Saya</h3></center>
     </div>
     </div>
@@ -243,7 +244,7 @@
 </div>
 
 </div>
-
+</div>
 
 
 
@@ -256,8 +257,28 @@
   <h5 style="font-family: 'Baloo Bhaina', cursive;color:white;font-size:25px">&copy Dion Arya Pamungkas</h5>
 </div>
 </footer>
+<script>
+var PosY = 0;
+var jarak = 10;
+function smoothScroll(id){
+  var target = document.getElementById(id).offsetTop; //jarak ke target
+  var scrollAnimate = setTimeout(function(){
+    smoothScroll(id);
+  }, 10);
 
+  PosY = PosY + jarak;
 
+  if (PosY >= target){
+    clearTimeout(scrollAnimate);
+    PosY = 0;
+  }else{
+  window.scroll(0, PosY);
+}
+
+return false;
+}
+
+</script>
   <script>
 	document.addEventListener("DOMContentLoaded", function(){
 		Typed.new(".element", {
