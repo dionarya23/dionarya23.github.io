@@ -8,6 +8,7 @@
       <!--- style css --->
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
       <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
       <link rel="icon" href="https://cdn-images-1.medium.com/max/400/1*RBU7lMjXUhias44aOFJasQ.png" type="image/gif" sizes="16x16">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -84,8 +85,9 @@ Teach a man to program, frustrate him for a lifetime.</i></p>
     <nav class="dnavbar u-pull-right">
       <ul class="dnavbar-list">
         <li class="dnavbar-item"><a class="dnavbar-link current" href="#tentang">About</a></li>
-        <li class="dnavbar-item"><a class="dnavbar-link" href="#karya">Karya</a></li>
-        <li class="dnavbar-item"><a class="dnavbar-link primary" href="#metode">Metode</a></li>
+        <li class="dnavbar-item"><a class="dnavbar-link primary" href="/blog">Blog</a></li>
+        <li class="dnavbar-item"><a class="dnavbar-link current" href="#karya">Karya</a></li>
+        <li class="dnavbar-item"><a class="dnavbar-link" href="#metode">Metode</a></li>
       </ul>
     </nav>
 
@@ -162,7 +164,7 @@ Teach a man to program, frustrate him for a lifetime.</i></p>
 
       <div class="thumbnail">
         <a href="{{ y.Link }}" target="_blank">
-          <img src="{{ y.Gambar }}" style="width:100%" height="700" alt="{{ y.Judul }}">
+          <img ng-src="{{ y.Gambar }}" style="width:100%" height="700" alt="{{ y.Judul }}">
           <div class="caption">
             <hr>
             <h4 class="text-center" style="font-family: sans-serif, cursive">{{ y.Judul }}</h4>
@@ -194,7 +196,7 @@ Teach a man to program, frustrate him for a lifetime.</i></p>
         <div class="col-md-2">
           <div class="w3-card-4">
           <div class="thumbnail">
-              <img src="{{ x.Gambar }}" width="262.39" height="262.39" alt="{{ x.Judul }}">
+              <img ng-src="{{ x.Gambar }}" width="262.39" height="262.39" alt="{{ x.Judul }}">
               <div class="caption">
                 <hr>
                 <h4 class="text-center" style="font-family: sans-serif, cursive">{{ x.Judul }}</h4>
@@ -247,7 +249,6 @@ Teach a man to program, frustrate him for a lifetime.</i></p>
                   <a href="http://Instagram.com/dion_arya.p">Instagram</a> | dionarya.p@gmail.com
     </h5>
  </div>
-
 <script src="script.js"></script>
 </body>
 </html>
