@@ -4,10 +4,3 @@ app.directive("quote", function(){
         templateUrl : "quotes"+ Math.floor(Math.random() * 3) + ".html"
 	};
 });
-
-app.directive("tentang", function(){
-	return {
-		restrict : "E",
-		"templateUrl" : "tentang.html"
-	};
-})

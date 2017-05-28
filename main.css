@@ -2,6 +2,18 @@
   font-family:  'Fascinate Inline', cursive;
 }
 
+hr{
+  border-color: black;
+  border-top:3px solid black;
+}
+
+.text1 .text2{
+  opacity: 0;
+  transform: translate(-50px, 0);
+}
+
+
+
 .dnavbar-link.current { text-decoration: underline; }
 
 .dnavbar-link { text-transform: uppercase; font-size: 11px; font-weight: 600; letter-spacing: .2rem; margin-left: 25px; text-decoration: none; line-height: 6.5rem; color: #222; }

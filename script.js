@@ -9,7 +9,7 @@
           {
             "Judul"  : "Coding",
             "Gambar" : "http://img.freepik.com/free-vector/web-page_1300-265.jpg",
-            "Deskripsi" : "Saya biasanya menulis sesuai dengan rencana yang sudah saya rencanakan dan kemudian saya menulis nya dengan berhati-hati untuk menimalisir error"
+            "Deskripsi" : "Saya biasanya menulis kode sesuai dengan rencana yang sudah saya rencanakan dan kemudian saya mulai menulis kode dengan berhati-hati untuk menimalisir error"
           },
           {
             "Judul"  : "Belajar",
@@ -72,6 +72,12 @@
             "Link"      : "http://github.com/dionarya6661/dapchat",
             "Gambar"    : "https://image.ibb.co/ipnJOv/capture_20170328_121038.png",
             "Deskripsi" : "Bosan Dengan bahasa PHP akhirnya saya pun mempelajari Node.JS dan membuat aplikasi chatting ini"
+          },
+          {
+            "Judul"     : "URL-longer",
+            "Link"      : "https://github.com/dionarya6661/pemanjang-url",
+            "Gambar"    : "https://image.ibb.co/h59QTF/capture_20170527_220832.png",
+            "Deskripsi" : "Web ini saya buat konsepnya hampir mirip dengan url shortener akan tetapi saya sedikir merubah nya pada bagian hasil hash urlnya"
           }
         ]
       });

@@ -86,19 +86,52 @@
   </div>
 
 
-
-
-  <div class="container">
+<div class="container">
 
     <div class="row">
       <div style="margin-top:110px;margin-bottom:50px">
         <div id="tentang">
 
         <div class="w3-container">
-          <h3 style="font-family: sans-serif,;"><b>Tentang Saya</b></h3>
+          <h3 style="font-family: sans-serif,;"><b><center>Tentang Saya</center></b></h3>
+          <hr>
         </div>
 
-        <tentang></tentang>
+        <div class="w3-container" style="padding:15px">
+            
+            <div class="row">
+            <div class="col-md-6">
+          <p style="font-family: sans-serif;font-size:19px">
+            Hai Nama saya Dion Arya Pamungkas, Saya berasal dari Cikarang Bekasi. Hobi saya adalah menulis artikel khusus nya menulis blog di artikel, sewaktu dulu saya pernah menjadi author di beberapa website sebut saja GudangRocker.com dan masih banya yang lainnya, selai menulis artikel saya juga suka dengan sepakbola, Arsenal dan Persib Bandung merupakan klub sepakbola favorit saya.</p>
+            </div>
+
+            <div class="col-md-6">
+          <p style="font-family: sans-serif;font-size:19px">
+            Sekarang saya sedang berjuang untuk meraih gelar S1 di Universitas Komputer Indonesia (UNIKOM) jurusan Sistem Informasi, dan saya juga adalah seorang web programmer, sudah banyak karya yang saya ciptakan dalam bidang ini diantaranya QuranSaya.ID, merupakan aplikasi web yang saya ciptakan untuk membantu membaca Al-Qur'an Secara digital.
+          </p>
+          </div>
+          </div>
+
+          <div class="row">
+          <div class="col-md-12">
+          <p style="font-family: sans-serif;font-size:19px">
+            Skill yang saya miliki :
+            <div class="col-md-12">
+              <button class="btn w3-orange">HTML</button>
+              <button class="btn w3-indigo">CSS</button>
+              <button class="btn w3-yellow">Javascript</button>
+              <button class="btn w3-blue">PHP</button>
+              <button class="btn w3-cyan">JQUERY</button>
+              <button class="btn w3-teal">Bootstrap</button>
+              <button class="btn w3-lime">W3CSS</button>
+              <button class="btn w3-red">Angular.js</button>
+              <button class="btn w3-gray">SQL</button>
+            </div>
+
+          </p><br>
+        </div>
+        </div>
+        </div>
           
 
       </div>
@@ -106,10 +139,12 @@
     </div>
     </div>
 
+  
+
 <hr>
 
 
-    <div id="karya">
+    <div class="karya" id="karya">
     <div class="row">
       <div class="col-md-12 col-xs-12">
       <h6 style="font-family: sans-serif, cursive;font-size:50px;">Portofolio</h6>
@@ -121,19 +156,21 @@
         <div ng-repeat="y in portofolio">
 
       <div class="col-md-4">
-
+      <div class="w3-card-4">
       <div class="thumbnail">
-        <a href="{{ y.Link }}" target="_blank">
+        
           <img ng-src="{{ y.Gambar }}" style="width:100%" height="700" alt="{{ y.Judul }}">
           <div class="caption">
             <hr>
+            <a href="{{ y.Link }}" target="_blank">
             <h4 class="text-center" style="font-family: sans-serif, cursive">{{ y.Judul }}</h4>
+            </a>
             <hr>
             <p style="font-family: sans-serif">{{ y.Deskripsi }}</p>
           </div>
-        </a>
+        
       </div>
-
+      </div>
     </div>
 
 </div>
@@ -180,7 +217,7 @@
       </div>
         <div class="w3-panel w3-pale-blue w3-bottombar w3-border-blue w3-border">
         <h2>Apa Yang Saya Lakukan Sekarang?</h2>
-        <p>Sekarang saya sedang fokus 3 hal yaitu menjadi mahasiswa <a href="unikom.ac.id" target="_blank">Universitas Komputer Indonesia</a>, menjadi seorang freelancer, dan mempelajari hal baru dalam dunia web programming </p>
+        <p>Sekarang saya sedang fokus 3 hal yaitu menjadi mahasiswa <a href="http://unikom.ac.id" target="_blank">Universitas Komputer Indonesia</a>, menjadi seorang freelancer, dan mempelajari hal baru dalam dunia web programming </p>
       </div>
       </div>
       </div>
@@ -208,6 +245,9 @@
                   <a href="http://Instagram.com/dion_arya.p">Instagram</a> | dionarya.p@gmail.com
     </h5>
  </div>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ <!-- Parallax -->
 <script src="script.js"></script>
 <script type="text/javascript" src="directive.js"></script>
 </body>
