@@ -62,6 +62,12 @@
             "Deskripsi" : "Terinspirasi dari Mark Zuckerberg yang mebuat Jarvis, Saya pun membuat simple personnal assistent yaitu Paijoboth"
           },
           {
+            "Judul"     : "url-longer",
+            "Link"      : "https://github.com/dionarya6661/pemanjang-url",
+            "Gambar"    : "https://image.ibb.co/h59QTF/capture_20170527_220832.png",
+            "Deskripsi" : "Web ini saya buat konsepnya hampir mirip dengan url shortener akan tetapi saya sedikir merubah nya pada bagian hasil hash urlnya"
+          },
+          {
             "Judul"     : "DapEmot",
             "Link"      : "https://github.com/dionarya6661/dap_emot",
             "Gambar"    : "https://image.ibb.co/hGw4gF/capture_20170328_145653.png",
@@ -74,10 +80,10 @@
             "Deskripsi" : "Bosan Dengan bahasa PHP akhirnya saya pun mempelajari Node.JS dan membuat aplikasi chatting ini"
           },
           {
-            "Judul"     : "URL-longer",
-            "Link"      : "https://github.com/dionarya6661/pemanjang-url",
-            "Gambar"    : "https://image.ibb.co/h59QTF/capture_20170527_220832.png",
-            "Deskripsi" : "Web ini saya buat konsepnya hampir mirip dengan url shortener akan tetapi saya sedikir merubah nya pada bagian hasil hash urlnya"
+            "Judul"     : "FACEMASH",
+            "Link"      : "https://dionarya6661.github.io/facemash",
+            "Gambar"    : "https://image.ibb.co/kjOr3F/capture_20170531_201928.png",
+            "Deskripsi" : "Facemash, saya membuat ini terinspirasi dari film The Social Network, disini saya gunakan untuk merating ilmuwan-ilmuwan"
           }
         ]
       });
