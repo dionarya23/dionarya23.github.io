@@ -65,7 +65,7 @@
             "Judul"     : "url-longer",
             "Link"      : "https://github.com/dionarya6661/pemanjang-url",
             "Gambar"    : "https://image.ibb.co/h59QTF/capture_20170527_220832.png",
-            "Deskripsi" : "Web ini saya buat konsepnya hampir mirip dengan url shortener akan tetapi saya sedikir merubah nya pada bagian hasil hash urlnya"
+            "Deskripsi" : "Web ini saya buat konsepnya hampir mirip dengan url shortener akan tetapi saya sedikit merubah nya pada bagian hasil hash urlnya"
           },
           {
             "Judul"     : "DapEmot",
@@ -84,6 +84,12 @@
             "Link"      : "https://dionarya6661.github.io/facemash",
             "Gambar"    : "https://image.ibb.co/kjOr3F/capture_20170531_201928.png",
             "Deskripsi" : "Facemash, saya membuat ini terinspirasi dari film The Social Network, disini saya gunakan untuk merating ilmuwan-ilmuwan"
+          },
+          {
+            "Judul"     : "9Kata.com",
+            "Link"      : "http://9kata.com",
+            "Gambar"    : "https://image.ibb.co/hNkwZa/capture_20170705_102330.png",
+            "Deskripsi" : "9kata.com merupakan sebuah situs web yang bertujuan untuk sharing kata-kata yang saya buat sendiri, konsep dari web ini sendiri mirip dengan twitter"
           }
         ]
       });
