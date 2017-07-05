@@ -89,7 +89,7 @@
             "Judul"     : "9Kata.com",
             "Link"      : "http://9kata.com",
             "Gambar"    : "https://image.ibb.co/hNkwZa/capture_20170705_102330.png",
-            "Deskripsi" : "9kata.com merupakan sebuah situs web yang bertujuan untuk sharing kata-kata yang saya buat sendiri, konsep dari web ini sendiri mirip dengan twitter"
+            "Deskripsi" : "Merupakan sebuah situs web yang bertujuan untuk sharing kata-kata yang saya buat sendiri, konsep dari web ini sendiri mirip dengan Twitter"
           }
         ]
       });
