@@ -164,7 +164,7 @@
           <img v-bind:src="y.Gambar" style="width:100%" height="700" alt="{{ y.Judul }}">
           <div class="caption">
             <hr>
-            <a href="{{ y.Link }}" target="_blank">
+            <a v-bind:href="y.Link" target="_blank">
             <h4 class="text-center" style="font-family: sans-serif, cursive">{{ y.Judul }}</h4>
             </a>
             <hr>
