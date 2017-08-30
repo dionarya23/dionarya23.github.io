@@ -15,9 +15,9 @@
       <link rel="stylesheet" href="main.css">
 
       <!--- Script of Javascript -->
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
 </head>
-    <body ng-app="Dion">
+    <body>
     <div class="container">
     <div class="row">
 
@@ -125,7 +125,7 @@
               <button class="btn w3-teal">Bootstrap</button>
               <button class="btn w3-red">Codeigneter</button>
               <button class="btn w3-lime">W3CSS</button>
-              <button class="btn w3-red">Angular.js</button>
+              <button class="btn w3-green">Vue.JS</button>
               <button class="btn w3-gray">SQL</button>
             </div>
 
@@ -144,6 +144,7 @@
 
 <hr>
 
+<div id="app">
 
     <div class="karya" id="karya">
     <div class="row">
@@ -152,15 +153,15 @@
       <p>Beberapa proyek yang sudah saya kerjakan</p>
     </div>
     </div>
-      <div ng-controller="Dctrl">
+
       <div class="row">
-        <div ng-repeat="y in portofolio">
+        <div v-for="y in karya">
 
       <div class="col-md-4">
       <div class="w3-card-4">
       <div class="thumbnail">
 
-          <img ng-src="{{ y.Gambar }}" style="width:100%" height="700" alt="{{ y.Judul }}">
+          <img v-bind:src="y.Gambar" style="width:100%" height="700" alt="{{ y.Judul }}">
           <div class="caption">
             <hr>
             <a href="{{ y.Link }}" target="_blank">
@@ -177,7 +178,6 @@
 </div>
 </div>
 </div>
-</div>
 
 <hr>
     <div class="container" style="margin-top:50px">
@@ -188,13 +188,13 @@
         <p>Inilah Metode yang saya gunakan ketika mengerjakan suatu proyek</p>
       </div>
 
-      <div ng-controller="Dctrl">
-        <div ng-repeat="x in metode">
+
+        <div v-for="x in metode">
 
         <div class="col-md-2">
           <div class="w3-card-4">
           <div class="thumbnail">
-              <img ng-src="{{ x.Gambar }}" width="262.39" height="262.39" alt="{{ x.Judul }}">
+              <img v-bind:src="x.Gambar" width="262.39" height="262.39" alt="{{ x.Judul }}">
               <div class="caption">
                 <hr>
                 <h4 class="text-center" style="font-family: sans-serif, cursive">{{ x.Judul }}</h4>
@@ -206,7 +206,8 @@
       </div>
 
       </div>
-    </div>
+
+
     <div class="col-md-6">
       <div class="w3-panel w3-pale-green w3-leftbar w3-rightbar w3-border-green">
       <h2>Pengalaman Saya</h2>
@@ -233,6 +234,8 @@
         <button class="btn w3-white w3-border w3-border-red w3-round-xlarge">Notepad++</button>
         <button class="btn w3-white w3-border w3-border-red w3-round-xlarge">Git</button>
         <button class="btn w3-white w3-border w3-border-red w3-round-xlarge">Laptop Asus X451CA</button>
+        <button class="btn w3-white w3-border w3-border-red w3-round-xlarge">Laptop Acer Aspire 14</button>
+
 
         </div>
       </div>
@@ -246,10 +249,9 @@
                   <a href="http://Instagram.com/dion_arya.p">Instagram</a> | dionarya.p@gmail.com
     </h5>
  </div>
- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
- <!-- Parallax -->
+</div> <!--enf of id app --->
+
 <script src="script.js"></script>
-<script type="text/javascript" src="directive.js"></script>
 </body>
 </html>

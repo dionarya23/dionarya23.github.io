@@ -1,6 +1,7 @@
-      var app = angular.module("Dion", []);
-      app.controller("Dctrl", function($scope){
-        $scope.metode    = [
+var appVue = new Vue({
+  el: "#app",
+  data: {
+    metode: [
           {
             "Judul"  : "Rencana",
             "Gambar" : "https://image.ibb.co/m5hHgQ/plan.jpg",
@@ -18,7 +19,7 @@
           }
         ],
 
-        $scope.portofolio = [
+      karya : [
           {
             "Judul"     : "Kalkulator Sederhana",
             "Link"      : "http://github.com/dionarya6661/kalkulator",
@@ -92,4 +93,5 @@
             "Deskripsi" : "Merupakan sebuah situs web yang bertujuan untuk sharing kata-kata yang saya buat sendiri, konsep dari web ini sendiri mirip dengan Twitter"
           }
         ]
-      });
+      }
+  });
