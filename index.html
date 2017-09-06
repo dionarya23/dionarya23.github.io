@@ -13,6 +13,7 @@
       <link rel="icon" href="https://image.ibb.co/iaFfkQ/d.jpg" type="image/gif" sizes="16x16">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="node_modules/animatecss/animate.min.css">
 
       <!--- Script of Javascript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.min.js"></script>
@@ -23,11 +24,11 @@
 
     <div class="col-md-4" style="margin-top:50px;">
       <div class="text-center">
-      <img class="w3-circle" width="294.39" height="283.48" alt="Dion Arya Pamungkas" src="https://image.ibb.co/ewK51Q/dion_vector.jpg">
+      <img class="w3-circle animated slideInLeft" id="gambarAwal" width="294.39" height="283.48" alt="Dion Arya Pamungkas" src="https://image.ibb.co/ewK51Q/dion_vector.jpg">
      </div>
    </div>
 
-   <div class="col-md-8" style="margin-top:50px;">
+   <div class="col-md-8 animated slideInRight" style="margin-top:50px;">
      <a href="/">
     <h4 style="font-size: 3.0rem;display:inline-block;font-family:sans-serif">DION ARYA PAMUNGKAS</h4></a>
     <br>
@@ -70,7 +71,7 @@
 <br>
 
 </div>
-<div class="w3-container w3-teal w3-padding" style="margin-top:50px">
+<div class="w3-container w3-teal w3-padding animated slideInUp" style="margin-top:50px">
 <h5><b>New Post :</b></h5>
 
 <a href="#" id="post0" target="_blank"></a><br><br>
@@ -82,7 +83,7 @@
 
 </div>
 
-    <nav class="dnavbar u-pull-right">
+    <nav class="dnavbar u-pull-right animated slideInUp">
       <ul class="dnavbar-list">
         <li class="dnavbar-item"><a class="dnavbar-link current" href="#tentang">About</a></li>
         <li class="dnavbar-item"><a class="dnavbar-link primary" href="/blog">Blog</a></li>
@@ -102,7 +103,7 @@
       <div style="margin-top:110px;margin-bottom:50px">
         <div id="tentang">
 
-        <div class="w3-container">
+        <div class="w3-container" id="tentangSaya">
           <h3 style="font-family: sans-serif,;"><b><center>Tentang Saya</center></b></h3>
           <hr>
         </div>
@@ -112,7 +113,7 @@
             <div class="row">
             <div class="col-md-6">
 
-              <div class="w3-container w3-teal w3-padding">
+              <div class="w3-container w3-teal w3-padding" id="about1">
           <p style="font-family: sans-serif;font-size:19px">
             Hai Nama saya Dion Arya Pamungkas, Saya berasal dari Cikarang Bekasi. Hobi saya adalah menulis artikel khusus nya menulis blog di artikel, sewaktu dulu saya pernah menjadi author di beberapa website sebut saja GudangRocker.com dan masih banyak yang lainnya, selain menulis artikel saya juga suka dengan sepakbola, Arsenal dan Persib Bandung merupakan klub sepakbola favorit saya.</p>
           </div>
@@ -121,7 +122,7 @@
 
             <div class="col-md-6">
 
-              <div class="w3-container w3-cyan w3-padding">
+              <div class="w3-container w3-cyan w3-padding" id="about2">
           <p style="font-family: sans-serif;font-size:19px">
             Sekarang saya sedang berjuang untuk meraih gelar S1 di Universitas Komputer Indonesia (UNIKOM) jurusan Sistem Informasi, dan saya juga adalah seorang web programmer, sudah banyak karya yang saya ciptakan dalam bidang ini diantaranya QuranSaya.ID, merupakan aplikasi web yang saya ciptakan untuk membantu membaca Al-Qur'an Secara digital.
           </p>
@@ -132,7 +133,7 @@
           </div>
 
           <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" id="skill">
           <p style="font-family: sans-serif;font-size:19px">
             Skill yang saya miliki :
             <div class="col-md-12">
@@ -277,13 +278,15 @@
 <script src="script.js"></script>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
     <script type="text/javascript">
     var i = 0;
     var y = 0;
     $(document).ready(function () {
+
         $.ajax({
             type: "GET",
-            url: "https://dionarya6661.github.io/blog/index.xml",
+            url: "/blog/index.xml",
             cache: false,
             dataType: "xml",
             success: function(xml) {
