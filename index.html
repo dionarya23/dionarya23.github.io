@@ -283,11 +283,11 @@
     var i = 0;
     var y = 0;
     $(document).ready(function () {
-
+      var endPoint = '/blog/index.xml';
         $.ajax({
             type: "GET",
-            url: "/blog/index.xml",
-            cache: false,
+            url: endPoint,
+            cache: true,
             dataType: "xml",
             success: function(xml) {
               $(xml).find('item').each(function(){
