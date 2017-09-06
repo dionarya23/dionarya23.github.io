@@ -9,12 +9,12 @@ var appVue = new Vue({
           },
           {
             "Judul"  : "Coding",
-            "Gambar" : "http://img.freepik.com/free-vector/web-page_1300-265.jpg",
+            "Gambar" : "https://image.ibb.co/eY2Urv/code.jpg",
             "Deskripsi" : "Saya biasanya menulis kode sesuai dengan rencana yang sudah saya rencanakan dan kemudian saya mulai menulis kode dengan berhati-hati untuk menimalisir error"
           },
           {
             "Judul"  : "Belajar",
-            "Gambar" : "http://www.freepik.com/blog/wp-content/uploads/2016/02/24780-NV8FA4-1024x1024.jpg",
+            "Gambar" : "https://preview.ibb.co/hdHqya/note.jpg",
             "Deskripsi" : "Mencatat semua informasi yang diambil dari proyek. Seperti ketika ada error. dan ini sangat bermanfaat sekali jika kita melakukan proyek yang mirip."
           }
         ],
