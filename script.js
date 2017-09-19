@@ -21,22 +21,10 @@ var appVue = new Vue({
 
       karya : [
           {
-            "Judul"     : "Kalkulator Sederhana",
-            "Link"      : "http://github.com/dionarya6661/kalkulator",
-            "Gambar"    : "https://image.ibb.co/dcRpVa/capture_20170328_115302.png",
-            "Deskripsi" : "Program Pertama Saya, sebuah program yang simple yaitu Kalkulator Sederhana Dengan bahasa PHP"
-          },
-          {
             "Judul"     : "EmbahDap",
             "Link"      : "http://embahdap.hol.es",
             "Gambar"    : "https://image.ibb.co/bRDgbF/capture_20170328_114651.png",
             "Deskripsi" : "EmbahDap merupakan aplikasi Web yang bisa meramal, cinta, kematian, kapan putus dan meramal yang lainnya"
-          },
-          {
-            "Judul"     : "DapCMS",
-            "Link"      : "http://github.com/dionarya6661/dapcms",
-            "Gambar"    : "https://image.ibb.co/n8xJOv/capture_20170328_114203.png",
-            "Deskripsi" : "DapCMS merupakan karya saya selanjutnya, ini merupakan sebuah content management system sederhana dibuat dengan mysql dan php"
           },
           {
             "Judul"     : "ColayGram",
@@ -57,12 +45,6 @@ var appVue = new Vue({
             "Deskripsi" : "DapCommerce merupakan toko online yang saya buat untuk keperluan kelas saya(XII PM1) yang waktu itu sedang melakukan Pemasaran Online"
           },
           {
-            "Judul"     : "PaijoBoth",
-            "Link"      : "https://github.com/dionarya6661/paijoboth",
-            "Gambar"    : "https://image.ibb.co/hyZ38v/capture_20170331_145018.png",
-            "Deskripsi" : "Terinspirasi dari Mark Zuckerberg yang mebuat Jarvis, Saya pun membuat simple personnal assistent yaitu Paijoboth"
-          },
-          {
             "Judul"     : "url-longer",
             "Link"      : "https://github.com/dionarya6661/pemanjang-url",
             "Gambar"    : "https://image.ibb.co/h59QTF/capture_20170527_220832.png",
@@ -73,12 +55,6 @@ var appVue = new Vue({
             "Link"      : "https://github.com/dionarya6661/dap_emot",
             "Gambar"    : "https://image.ibb.co/hGw4gF/capture_20170328_145653.png",
             "Deskripsi" : "Sebuah Library Php Untuk mengeluarkan sistem emoticon terdapat 25 emoticon, Karya saya yang ini bisa membantu beberapa orang"
-          },
-          {
-            "Judul"     : "DapChat",
-            "Link"      : "http://github.com/dionarya6661/dapchat",
-            "Gambar"    : "https://image.ibb.co/ipnJOv/capture_20170328_121038.png",
-            "Deskripsi" : "Bosan Dengan bahasa PHP akhirnya saya pun mempelajari Node.JS dan membuat aplikasi chatting ini"
           },
           {
             "Judul"     : "FACEMASH",
