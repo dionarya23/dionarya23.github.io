@@ -27,12 +27,6 @@ var appVue = new Vue({
             "Deskripsi" : "EmbahDap merupakan aplikasi Web yang bisa meramal, cinta, kematian, kapan putus dan meramal yang lainnya"
           },
           {
-            "Judul"     : "ColayGram",
-            "Link"      : "http://github.com/dionarya6661/colaygram",
-            "Gambar"    : "https://image.ibb.co/njyxGF/capture_20170328_115701.png",
-            "Deskripsi" : "Terinspirasi film 'The Social Network' saya membuat sebuah social media sederhana yaitu ColayGram, Ini hampir mirip dengan Instagram"
-          },
-          {
             "Judul"     : "QuranSaya.ID",
             "Link"      : "https://quransaya.id",
             "Gambar"    : "https://image.ibb.co/i1Ovov/capture_20170328_145458.png",
