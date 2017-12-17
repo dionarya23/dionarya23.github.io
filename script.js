@@ -67,6 +67,12 @@ var appVue = new Vue({
             "Link"      : "http://9kata.com",
             "Gambar"    : "https://image.ibb.co/hNkwZa/capture_20170705_102330.png",
             "Deskripsi" : "Merupakan sebuah situs web yang bertujuan untuk sharing kata-kata yang saya buat sendiri, konsep dari web ini sendiri mirip dengan Twitter"
+          },
+          {
+            "Judul"     : "DapTranslate",
+            "Link"      : "https://dap-translate.herokuapp.com",
+            "Gambar"    : "https://image.ibb.co/f7r476/capture_20171217_083915.png",
+            "Deskripsi" : "Merupakan situs web yang mirip dengan google translate, saya membuat ini memakai NodeJS dan Google Translate API"
           }
         ]
       }
